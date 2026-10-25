@@ -1,71 +1,57 @@
+
+<div align="center">
+
 # Web Development Projects
 
-Welcome to my portfolio repository featuring web development projects and practice tasks built during my learning journey.
+**A collection of websites and frontend projects built during my learning journey.**
+
+[Portfolio](https://malaika-aiman.vercel.app/) · [GitHub](https://github.com/malaika-aiman) · [LinkedIn](https://www.linkedin.com/in/malaika-aiman/)
+
+</div>
 
 ---
 
-## 🚀 Projects List
+## Projects
 
-### 1. Tech Innovators Summit 2026 Landing Page
-- **Description:** A semantic HTML5 project featuring event details, schedules, speaker lists, and forms.
-- **Tech Stack:** HTML5
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/Pro-1/index.html)
+| # | Project | Description | Technologies | Live Demo |
+|---|---|---|---|---|
+| 01 | **Tech Innovators Summit 2026** | Event landing page with schedules, speakers and forms | HTML5 | [View ↗](https://malaika-aiman.github.io/web-development-projects/Pro-1/index.html) |
+| 02 | **Interactive Event & Task Manager** | Task management interface with progress tracking and filtering | React, Express.js, Tailwind CSS* | [View ↗](https://malaika-aiman.github.io/web-development-projects/Tech/project2.html) |
+| 03 | **Study Café — Student Study Hub** | Study routines, weekly planner and signup form | HTML5, CSS3 | [View ↗](https://malaika-aiman.github.io/web-development-projects/StudyCafe/index.html) |
+| 04 | **Travel & Tourism** | Travel website with destination and tour package presentation | HTML5, CSS3 | [View ↗](https://malaika-aiman.github.io/web-development-projects/Travel/Travel.html) |
+| 05 | **SAVORA Restaurant** | Restaurant website with menu presentation and branding | HTML5, CSS3 | [View ↗](https://malaika-aiman.github.io/web-development-projects/restaurant/Restaurant.html) |
+| 06 | **KicksX — Sneaker Store** | Footwear landing page with product grids | HTML5, CSS3 | [View ↗](https://malaika-aiman.github.io/web-development-projects/kicksx/kicksx.html) |
+| 07 | **Nestora — Real Estate** | Real estate website with property-focused layouts | HTML5, CSS3, JavaScript | [View ↗](https://malaika-aiman.github.io/web-development-projects/Real%20Estate/nestore.html) |
+| 08 | **MCQs Practice Hub** | Subject-wise MCQ practice and quiz interface | HTML5, CSS3, JavaScript | [View ↗](https://malaika-aiman.github.io/web-development-projects/MCQS/index.html) |
+| 09 | **Blush Up — Makeup Studio** | Beauty studio website with service and gallery presentation | HTML5, CSS3, JavaScript | [View ↗](https://malaika-aiman.github.io/web-development-projects/Blush-up/index.html) |
+| 10 | **Maison — Digital Store** | Online storefront concept for digital products and courses | HTML5, CSS3, JavaScript | [View ↗](https://malaika-aiman.github.io/web-development-projects/Online%20Course/index.html) |
+| 11 | **Study Café — Virtual Study Room** | Study and productivity website | HTML5, CSS3, JavaScript | [View ↗](https://malaika-aiman.github.io/web-development-projects/StudyCafe/index.html) |
+| 12 | **FITORA — Fitness & Gym** | Fitness website with workout and membership content | HTML5, CSS3, JavaScript | [View ↗](https://malaika-aiman.github.io/web-development-projects/FITORA/index.html) |
 
-### 2. Interactive Event & Task Manager
-- **Description:** Full-stack task management dashboard with dynamic progress tracking and task filtering.
-- **Tech Stack:** React, Express.js (REST API), Tailwind CSS
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/Tech/project2.html)
-
-### 3. Study Café — Student Study Hub
-- **Description:** Student study hub featuring structured study routines, weekly planners, and interactive signup form.
-- **Tech Stack:** HTML5, CSS3
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/StudyCafe/index.html)
-
-### 4. Travel & Tourism Destination Website
-- **Description:** Luxury travel agency website featuring tour packages and custom Midnight Navy & Gold theme.
-- **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/Travel/Travel.html)
-
-### 5. SAVORA Restaurant Website
-- **Description:** Modern restaurant web app with custom brand logo, menu grid, and promotional Canva banner.
-- **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/restaurant/Restaurant.html)
-
-### 6. KicksX — Sneaker Store Landing Page
-- **Description:** Stylish and responsive sneaker store landing page featuring product grids and modern UI.
-- **Tech Stack:** HTML5, CSS3
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/kicksx/kicksx.html)
-
-### 7. Nestora — Real Estate Web Application
-- **Description:** Modern real estate web app featuring property listings, search filters, and custom branding assets.
-- **Tech Stack:** HTML5, CSS3, JavaScript, Canva
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/Real%20Estate/nestore.html)
-
-### 8. MCQs Practice Hub
-- **Description:** Interactive platform for practicing subject-wise MCQs, quizzes, and exam preparation.
-- **Tech Stack:** HTML5, CSS3, JavaScript
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/MCQS/index.html)
-
-### 9. Blush Up — Makeup Studio Website
-- **Description:** Modern, responsive landing page for a boutique makeup studio featuring service listings, an interactive gallery lightbox, and an appointment booking form.
-- **Tech Stack:** HTML5, CSS3, JavaScript
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/Blush-up/index.html)
-
-### 10. Maison — Online Store & Digital Products Platform
-- **Description:** A modern, stylish, and responsive e-commerce web application for browsing and purchasing online courses and digital products with a seamless user experience.
-- **Tech Stack:** HTML5, CSS3, JavaScript
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/Online%20Course/index.html)
-
-### 11. Study Café — Virtual Study Room & Productivity Hub
-- **Description:** A modern, aesthetic, and fully responsive web application designed for students and self-learners, featuring interactive study timers, ambient soundscapes, task tracking, and curated study resource hubs.
-- **Tech Stack:** HTML5, CSS3, JavaScript
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/StudyCafe/index.html)
-
-### 12. FITORA — Fitness & Gym Website
-- **Description:** A modern, dynamic, and fully responsive fitness and gym web application designed to showcase workout programs, membership plans, trainer profiles, and interactive fitness features.
-- **Tech Stack:** HTML5, CSS3, JavaScript
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/FITORA/index.html)
+\*Confirm that React, Express.js and Tailwind CSS are actually used in Project 02 before publishing those technologies.
 
 ---
 
-**Developed with ❤️ by MALAIKA!**
+## Skills Practiced
+
+- **HTML5:** Page structure and semantic markup
+- **CSS3:** Layouts, styling and responsive design
+- **JavaScript:** Frontend programming and interactivity
+- **UI Design:** Colors, branding and visual presentation
+- **Problem Solving:** Learning through practical projects
+
+## About This Repository
+
+This repository documents my progress in web development through practical projects and frontend experiments.
+
+I continue to improve my coding, responsive design and user experience skills by building and refining websites.
+
+---
+
+<div align="center">
+
+**Created by Malaika Aiman**
+
+*Learning consistently. Building thoughtfully.*
+
+</div>
