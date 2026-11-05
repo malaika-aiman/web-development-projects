@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maison — Curated Shopping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="logo" href="#">MAI<span>SON</span></a>
+  <nav>
+    <a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#story">Our story</a>
+  </nav>
+  <div class="header-actions">
+    <button id="searchBtn" aria-label="Search">⌕</button>
+    <button id="cartBtn">Bag <b id="count">0</b></button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">THE EVERYDAY EDIT · 2026</p>
+    <h1>Little things that<br><em>feel like you.</em></h1>
+    <p class="hero-text">A thoughtful collection of fashion, home and tech essentials made for the way you live.</p>
+    <a class="cta" href="#shop">Explore the collection <span>→</span></a>
+    <div class="hero-note"><span>✦</span> Carefully selected, never ordinary.</div>
+  </div>
+  <div class="hero-photo">
+    <img src="hero.jpg" alt="Neutral fashion collection">
+    <div class="photo-label"><small>NEW SEASON</small><strong>Quiet<br>confidence.</strong></div>
+  </div>
+</section>
+
+<section class="trust-bar">
+  <span>Free delivery over Rs. 80</span><span>Easy 14-day returns</span><span>Secure checkout</span><span>Curated with care</span>
+</section>
+
+<section class="section" id="categories">
+  <div class="section-title"><p class="eyebrow">SHOP BY MOOD</p><h2>Find your kind of beautiful.</h2></div>
+  <div class="category-grid">
+    <a class="category fashion" href="#shop" data-category="fashion"><div><small>01 / STYLE</small><h3>Wear it<br>well.</h3><span>Explore fashion →</span></div></a>
+    <a class="category home" href="#shop" data-category="home"><div><small>02 / HOME</small><h3>Make space<br>for calm.</h3><span>Explore home →</span></div></a>
+    <a class="category tech" href="#shop" data-category="tech"><div><small>03 / TECH</small><h3>Smart looks<br>simple.</h3><span>Explore tech →</span></div></a>
+  </div>
+</section>
+
+<section class="section shop" id="shop">
+  <div class="section-title row-title">
+    <div><p class="eyebrow">THE MAISON EDIT</p><h2>Shop favorites.</h2></div>
+    <div class="filters"><button class="active" data-filter="all">All</button><button data-filter="fashion">Fashion</button><button data-filter="home">Home</button><button data-filter="tech">Tech</button></div>
+  </div>
+  <div class="products">
+    <article class="product" data-cat="fashion">
+      <div class="product-image"><img src="camvas bag.jpg" alt="Canvas tote bag"><span>NEW</span><button class="heart">♡</button></div>
+      <div class="product-info"><small>FASHION</small><h3>Everyday Canvas Tote</h3><p>Soft structure · Natural cotton</p><div class="product-bottom"><b>Rs. 42</b><button class="add">Add to bag +</button></div></div>
+    </article>
+    <article class="product" data-cat="home">
+      <div class="product-image"><img src="mug.jpg" alt="Ceramic mug"><button class="heart">♡</button></div>
+      <div class="product-info"><small>HOME</small><h3>Stoneware Morning Mug</h3><p>Hand-finished · Warm sand</p><div class="product-bottom"><b>Rs. 24</b><button class="add">Add to bag +</button></div></div>
+    </article>
+    <article class="product" data-cat="tech">
+      <div class="product-image"><img src="headphones.jpg" alt="Wireless headphones"><span>BESTSELLER</span><button class="heart">♡</button></div>
+      <div class="product-info"><small>TECH</small><h3>Arc Wireless Headphones</h3><p>Immersive sound · Cloud white</p><div class="product-bottom"><b>Rs. 89</b><button class="add">Add to bag +</button></div></div>
+    </article>
+    <article class="product" data-cat="fashion">
+      <div class="product-image"><img src="clothes.jpg" alt="Linen shirt"><button class="heart">♡</button></div>
+      <div class="product-info"><small>FASHION</small><h3>Relaxed Linen Shirt</h3><p>Breathable linen · Soft blue</p><div class="product-bottom"><b>Rs. 58</b><button class="add">Add to bag +</button></div></div>
+    </article>
+    <article class="product" data-cat="home">
+      <div class="product-image"><img src="lamp.webp" alt="Minimal desk lamp"><button class="heart">♡</button></div>
+      <div class="product-info"><small>HOME</small><h3>Minimal Desk Lamp</h3><p>Soft light · Brushed metal</p><div class="product-bottom"><b>Rs. 65</b><button class="add">Add to bag +</button></div></div>
+    </article>
+    <article class="product" data-cat="tech">
+      <div class="product-image"><img src="speaker.jpg" alt="Smart speaker"><button class="heart">♡</button></div>
+      <div class="product-info"><small>TECH</small><h3>Compact Smart Speaker</h3><p>Clear audio · Charcoal</p><div class="product-bottom"><b>Rs. 72</b><button class="add">Add to bag +</button></div></div>
+    </article>
+  </div>
+</section>
+
+<section class="sale-banner">
+  <div><p class="eyebrow">A LITTLE TREAT</p><h2>Good things,<br>better prices.</h2><p>Enjoy 20% off selected everyday favorites.</p><a class="light-cta" href="#shop">Shop sale →</a></div>
+  <img src="bag.jpg" alt="Beautiful clothing store">
+</section>
+
+<section class="story" id="story">
+  <div><p class="eyebrow">OUR PHILOSOPHY</p><h2>Less noise.<br><em>More meaning.</em></h2></div>
+  <p>Maison brings together useful, lasting pieces that make everyday moments feel a little better. No endless scrolling. Just things worth choosing.</p>
+</section>
+
+<section class="newsletter">
+  <p class="eyebrow">STAY IN THE LOOP</p><h2>Good finds, in your inbox.</h2><p>New arrivals, thoughtful edits and little surprises.</p>
+  <form id="newsletter"><input type="email" placeholder="Your email address" required><button>Join us →</button></form>
+</section>
+
+<footer><div class="logo">MAI<span>SON</span></div><div><a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#story">Our story</a></div><p>Made by <strong>Malaika</strong> · © 2026 Maison</p></footer>
+<script src="script.js"></script>
+</body></html>

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JavaNova | Java MCQ Practice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aa.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="navbar">
+    <a class="brand" href="#home"><span class="brand-mark">J</span><span>Java<span class="gold">Nova</span></span></a>
+    <nav><a href="#home">Home</a><a href="#quiz">Practice</a><a href="#topics">Topics</a></nav>
+    <button class="nav-button" id="navStart">Start Quiz <span>↗</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="pulse-dot"></span> Interactive Java learning space</p>
+        <h1>Think in code.<br><span>Master Java.</span></h1>
+        <p class="hero-text">Sharpen your Java concepts with quick MCQs, instant feedback, and a little friendly competition.</p>
+        <div class="hero-actions"><button class="primary-btn" id="heroStart">Explore Practice <span>→</span></button><a class="text-link" href="#topics">View topics <span>↓</span></a></div>
+        <div class="mini-stats"><div><strong>50+</strong><span>Practice MCQs</span></div><div><strong>8</strong><span>Core topics</span></div><div><strong>∞</strong><span>Retry attempts</span></div></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="code-card"><div class="window-bar"><i></i><i></i><i></i><span>JavaNova.java</span></div><pre><span class="purple">public class</span> <span class="blue">JavaNova</span> {
+  <span class="purple">public static void</span> <span class="yellow">main</span>(String[] args) {
+    <span class="blue">System</span>.out.println(
+      <span class="green">"Keep learning. Keep building."</span>
+    );
+  }
+}</pre><div class="code-footer"><span><b></b> Ready to practice</span><span>01 / 08</span></div></div>
+        <div class="floating-card score-float"><span class="float-icon">✦</span><div><small>Today's progress</small><strong>72% <em>↗</em></strong></div></div>
+        <div class="floating-card streak-float"><span class="flame">♨</span><div><small>Learning streak</small><strong>07 days</strong></div></div>
+      </div>
+    </section>
+
+    <section class="topics section" id="topics"><div class="section-heading"><div><p class="eyebrow">WHAT YOU'LL PRACTICE</p><h2>Build stronger Java foundations.</h2></div><p>From syntax to OOP, move through the concepts that make Java click.</p></div>
+      <div class="topic-grid"><article class="topic-card"><span class="topic-number">01</span><div class="topic-icon">⌘</div><h3>Java Basics</h3><p>Syntax, variables, data types and operators.</p><span class="topic-count">10 questions →</span></article><article class="topic-card"><span class="topic-number">02</span><div class="topic-icon">⑂</div><h3>Control Flow</h3><p>Conditions, loops and logical decisions.</p><span class="topic-count">10 questions →</span></article><article class="topic-card"><span class="topic-number">03</span><div class="topic-icon">◈</div><h3>OOP Concepts</h3><p>Classes, objects, inheritance and polymorphism.</p><span class="topic-count">10 questions →</span></article><article class="topic-card"><span class="topic-number">04</span><div class="topic-icon">{ }</div><h3>Arrays & Strings</h3><p>Collections of values and text manipulation.</p><span class="topic-count">10 questions →</span></article></div>
+    </section>
+
+    <section class="quiz-section section" id="quiz"><div class="quiz-shell"><div class="quiz-top"><div><p class="eyebrow">PRACTICE MODE</p><h2>Test your Java instincts.</h2></div><div class="quiz-meta"><span id="questionCounter">Question 1 of 10</span><span class="timer" id="timer">00:30</span></div></div><div class="progress-track"><div id="progressBar"></div></div><div class="quiz-content" id="quizContent"><div class="question-label">JAVA BASICS</div><h3 id="questionText"></h3><div class="options" id="options"></div><div class="quiz-bottom"><span id="feedbackText">Choose the best answer to continue.</span><button class="next-btn" id="nextBtn" disabled>Next question <span>→</span></button></div></div><div class="result" id="result"><div class="result-badge">✦</div><p class="eyebrow">QUIZ COMPLETE</p><h2 id="resultTitle">Great work!</h2><p id="resultText"></p><div class="result-score"><strong id="finalScore">0/10</strong><span>final score</span></div><button class="primary-btn" id="retryBtn">Try again <span>↻</span></button></div></div></section>
+  </main>
+  <footer><span>JavaNova <span class="gold">●</span></span><span>Made for curious developers.</span></footer>
+  <script src="s.js"></script>
+</body>
+</html>

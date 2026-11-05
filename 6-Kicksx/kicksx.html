@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KicksX Pakistan | Next-Gen Sneaker Store</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Sttyle.css">
+</head>
+<body>
+
+    <header id="header">
+        <a href="#" class="logo">Kicks<span>X</span></a>
+        <ul class="navlist" id="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#shop">Collection</a></li>
+            <li><a href="#features">Tech Specs</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div class="cart-icon" id="cartBtn">
+                <i class='bx bx-cart'></i>
+                <span id="cart-count">0</span>
+            </div>
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>FUTURE <br> IS <span>STEPPING</span></h1>
+            <p>Experience unmatched comfort and futuristic design with KicksX Alpha. Engineered for the modern urban explorer across Pakistan.</p>
+            <div class="home-btn">
+                <a href="#shop" class="btn">Explore Collection</a>
+                <a href="#features" class="btn-video">
+                    <i class='bx bx-play'></i> Watch Tech
+                </a>
+            </div>
+        </div>
+
+        <div class="home-img-wrapper">
+            <div class="home-img">
+                <div class="shoe-circle"></div>
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=800&auto=format&fit=crop" alt="Sneaker" id="mainShoeImg">
+            </div>
+            <div class="color-selector">
+                <div class="color-box red active" data-index="0"></div>
+                <div class="color-box blue" data-index="1"></div>
+                <div class="color-box black" data-index="2"></div>
+                <div class="color-box yellow" data-index="3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop" id="shop">
+        <h2 class="heading">Featured <span>Drop</span></h2>
+        
+        <div class="filter-bar">
+            <input type="text" id="searchInput" placeholder="Search sneakers...">
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="running">Running</button>
+                <button class="filter-btn" data-filter="streetwear">Streetwear</button>
+            </div>
+        </div>
+
+        <div class="product-container" id="productContainer">
+            <div class="product-card" data-category="running">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=600&auto=format&fit=crop" alt="Shoe"></div>
+                <div class="card-info">
+                    <h3>KicksX Crimson Alpha</h3>
+                    <p class="price">Rs. 52,999</p>
+                    <button class="add-cart-btn" onclick="addToCart('KicksX Crimson Alpha', 52999)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="streetwear">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=600&auto=format&fit=crop" alt="Shoe"></div>
+                <div class="card-info">
+                    <h3>KicksX Cobalt Strike</h3>
+                    <p class="price">Rs. 58,500</p>
+                    <button class="add-cart-btn" onclick="addToCart('KicksX Cobalt Strike', 58500)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="streetwear">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1600185365926-3a2ce3cdb9eb?q=80&w=600&auto=format&fit=crop" alt="Shoe"></div>
+                <div class="card-info">
+                    <h3>KicksX Obsidian Stealth</h3>
+                    <p class="price">Rs. 68,999</p>
+                    <button class="add-cart-btn" onclick="addToCart('KicksX Obsidian Stealth', 68999)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="running">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?q=80&w=600&auto=format&fit=crop" alt="Shoe"></div>
+                <div class="card-info">
+                    <h3>KicksX Solar Flare</h3>
+                    <p class="price">Rs. 54,999</p>
+                    <button class="add-cart-btn" onclick="addToCart('KicksX Solar Flare', 54999)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="running">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?q=80&w=600&auto=format&fit=crop" alt="Shoe"></div>
+                <div class="card-info">
+                    <h3>KicksX Neon Runner</h3>
+                    <p class="price">Rs. 49,500</p>
+                    <button class="add-cart-btn" onclick="addToCart('KicksX Neon Runner', 49500)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="product-card" data-category="streetwear">
+                <div class="card-img"><img src="https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=600&auto=format&fit=crop" alt="Shoe"></div>
+                <div class="card-info">
+                    <h3>KicksX Urban Cyber</h3>
+                    <p class="price">Rs. 64,000</p>
+                    <button class="add-cart-btn" onclick="addToCart('KicksX Urban Cyber', 64000)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="heading">Tech <span>Specs</span></h2>
+        <div class="feature-container">
+            <div class="box">
+                <i class='bx bx-wind'></i>
+                <h3>AeroFoam Midsole</h3>
+                <p>Ultra-lightweight cushioning that absorbs impact and returns energy with every stride.</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-layer'></i>
+                <h3>Dynamic Knit</h3>
+                <p>Seamless, breathable upper material that hugs your foot shape perfectly.</p>
+            </div>
+            <div class="box">
+                <i class='bx bx-tachometer'></i>
+                <h3>GripTech Outsole</h3>
+                <p>Engineered rubber traction pattern for maximum grip on wet or dry urban surfaces.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h2 class="heading">Customer <span>Reviews</span></h2>
+        <div class="review-container">
+            <div class="review-box">
+                <div class="stars"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></div>
+                <p>"Best sneakers I have bought in Pakistan! Extremely comfortable and delivery was super fast in Lahore."</p>
+                <h4>- Hamza Khan</h4>
+            </div>
+            <div class="review-box">
+                <div class="stars"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></div>
+                <p>"The futuristic look is amazing. Quality is top-notch, highly recommended for streetwear lovers."</p>
+                <h4>- Zainab Malik</h4>
+            </div>
+            <div class="review-box">
+                <div class="stars"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half'></i></div>
+                <p>"Super light on feet. Cushioning is next level during running sessions. Will buy another color soon!"</p>
+                <h4>- Usman Ali</h4>
+            </div>
+        </div>
+    </section>
+
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-header">
+            <h3>Your Shopping Cart</h3>
+            <i class='bx bx-x' id="closeCart"></i>
+        </div>
+        <div class="cart-items" id="cartItemsList">
+            <p style="color: #777; text-align: center; margin-top: 40px;">Your cart is empty.</p>
+        </div>
+        <div class="cart-footer">
+            <div class="total-bill">
+                <span>Total:</span>
+                <span id="cartTotalPrice">Rs. 0</span>
+            </div>
+            <button class="checkout-btn" onclick="checkout()">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 KicksX Pakistan. All Rights Reserved.</p>
+            <p class="dev-credit">Developed with <span>❤️</span> by <strong>Malaika</strong></p>
+        </div>
+    </footer>
+
+    <script src="Java.js"></script>
+</body>
+</html>

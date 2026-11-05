@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestora | Find Your Perfect Home</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="nestore.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <nav class="container nav">
+            <a class="logo" href="#home">
+                <b>⌂ Nestora</b>
+                <small>Find your perfect home</small>
+            </a>
+            <button id="menuBtn" class="menu">☰</button>
+            <ul id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#agents">Agents</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a class="pill desktop" href="#properties">Explore Homes</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container heroGrid">
+                <div class="reveal">
+                    <p class="eyebrow">✦ PREMIUM REAL ESTATE</p>
+                    <h1>Find a place you'll love to <em>call home.</em></h1>
+                    <p class="lead">Discover thoughtfully selected homes in exceptional locations. Nestora makes the journey from search to your next chapter simple.</p>
+                    <div class="buttons">
+                        <a class="pill" href="#properties">Explore Properties →</a>
+                        <a class="outline" href="#about">Learn More</a>
+                    </div>
+                    <div class="stats">
+                        <div>
+                            <b>2,500+</b>
+                            <span>Properties</span>
+                        </div>
+                        <div>
+                            <b>1,200+</b>
+                            <span>Happy Clients</span>
+                        </div>
+                        <div>
+                            <b>12+</b>
+                            <span>Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="heroImg reveal">
+                    <img src="hero-house.jpg" alt="Modern luxury home">
+                    <div class="float">
+                        ⌖ <span><small>Featured Location</small><b>Islamabad, Pakistan</b></span>
+                    </div>
+                    <div class="price">
+                        <small>Starting from</small>
+                        <b>PKR 1. Crore</b>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Search Box -->
+            <div class="container search reveal">
+                <form id="searchForm">
+                    <label>Location
+                        <select id="location">
+                            <option value="all">Any Location</option>
+                            <option value="islamabad">Islamabad</option>
+                            <option value="lahore">Lahore</option>
+                            <option value="rawalpindi">Rawalpindi</option>
+                            <option value="karachi">Karachi</option>
+                        </select>
+                    </label>
+                    <label>Property Type
+                        <select id="type">
+                            <option value="all">Any Type</option>
+                            <option value="house">House</option>
+                            <option value="villa">Villa</option>
+                            <option value="apartment">Apartment</option>
+                        </select>
+                    </label>
+                    <label>Price Range
+                        <select id="priceFilter">
+                            <option value="all">Any Price</option>
+                            <option value="low">Under 2 Crore</option>
+                            <option value="mid">2–5 Crore</option>
+                            <option value="high">5+ Crore</option>
+                        </select>
+                    </label>
+                    <button>Search Properties</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Properties Section -->
+        <section class="section white" id="properties">
+            <div class="container">
+                <div class="head reveal">
+                    <div>
+                        <p class="eyebrow">DISCOVER NESTORA</p>
+                        <h2>Featured <em>Properties</em></h2>
+                    </div>
+                    <a href="#contact">View all properties →</a>
+                </div>
+
+                <div class="filters reveal">
+                    <button class="filter active" data-filter="all">All</button>
+                    <button class="filter" data-filter="house">Houses</button>
+                    <button class="filter" data-filter="villa">Villas</button>
+                    <button class="filter" data-filter="apartment">Apartments</button>
+                </div>
+                
+                <p id="result"></p>
+
+                <div class="propertyGrid">
+                    <article class="card reveal" data-type="villa" data-location="islamabad" data-price="mid">
+                        <div class="photo">
+                            <img src="property-1.jpg" alt="Modern villa">
+                            <button class="heart">♡</button>
+                            <i>Featured</i>
+                        </div>
+                        <div class="cardBody">
+                            <small>⌖ DHA, Islamabad</small>
+                            <h3>Modern Family Villa</h3>
+                            <p>5 Beds • 4 Baths • 10 Marla</p>
+                            <div>
+                                <b>PKR 4.5 Crore</b>
+                                <button class="detail">Details →</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal" data-type="apartment" data-location="lahore" data-price="mid">
+                        <div class="photo">
+                            <img src="property-2.jpg" alt="Luxury apartment">
+                            <button class="heart">♡</button>
+                        </div>
+                        <div class="cardBody">
+                            <small>⌖ Bahria Town, Lahore</small>
+                            <h3>Skyline Apartment</h3>
+                            <p>3 Beds • 3 Baths • 2,100 sq ft</p>
+                            <div>
+                                <b>PKR 2.2 Crore</b>
+                                <button class="detail">Details →</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal" data-type="house" data-location="rawalpindi" data-price="low">
+                        <div class="photo">
+                            <img src="property-3.jpg" alt="Contemporary house">
+                            <button class="heart">♡</button>
+                        </div>
+                        <div class="cardBody">
+                            <small>⌖ Bahria Town, Rawalpindi</small>
+                            <h3>Contemporary House</h3>
+                            <p>4 Beds • 4 Baths • 7 Marla</p>
+                            <div>
+                                <b>PKR 1.8 Crore</b>
+                                <button class="detail">Details →</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card reveal" data-type="villa" data-location="karachi" data-price="high">
+                        <div class="photo">
+                            <img src="property-4.jpg" alt="Ocean villa">
+                            <button class="heart">♡</button>
+                            <i>New</i>
+                        </div>
+                        <div class="cardBody">
+                            <small>⌖ Clifton, Karachi</small>
+                            <h3>Ocean View Villa</h3>
+                            <p>6 Beds • 6 Baths • 1 Kanal</p>
+                            <div>
+                                <b>PKR 8.5 Crore</b>
+                                <button class="detail">Details →</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container aboutGrid">
+                <div class="aboutImg reveal">
+                    <img src="interior.jpg" alt="Modern interior">
+                    <div class="experience">
+                        <b>12+</b>
+                        <span>Years of trusted<br>experience</span>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <p class="eyebrow">ABOUT NESTORA</p>
+                    <h2>Real estate made <em>personal.</em></h2>
+                    <p class="lead">We combine local knowledge, carefully selected listings and a people-first approach so finding a home feels exciting instead of overwhelming.</p>
+                    <div class="checks">
+                        <span>✓ Verified Properties</span>
+                        <span>✓ Prime Locations</span>
+                        <span>✓ Secure Transactions</span>
+                        <span>✓ Personal Guidance</span>
+                    </div>
+                    <button class="pill openModal">Talk to an Expert →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Nestora Section -->
+        <section class="section white">
+            <div class="container">
+                <div class="center reveal">
+                    <p class="eyebrow">WHY NESTORA</p>
+                    <h2>Everything you need for a <em>better move.</em></h2>
+                </div>
+                <div class="benefits">
+                    <div class="benefit reveal">
+                        <strong>⌂</strong>
+                        <h3>Verified Listings</h3>
+                        <p>Carefully selected homes for a more confident search.</p>
+                    </div>
+                    <div class="benefit reveal">
+                        <strong>⌖</strong>
+                        <h3>Best Locations</h3>
+                        <p>Neighborhoods that fit your lifestyle and future plans.</p>
+                    </div>
+                    <div class="benefit reveal">
+                        <strong>♢</strong>
+                        <h3>Secure Process</h3>
+                        <p>Clear guidance from viewing to final decision.</p>
+                    </div>
+                    <div class="benefit reveal">
+                        <strong>✦</strong>
+                        <h3>Expert Support</h3>
+                        <p>A helpful team ready to answer your questions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Locations Section -->
+        <section class="section" id="locations">
+            <div class="container">
+                <div class="head reveal">
+                    <div>
+                        <p class="eyebrow">EXPLORE AREAS</p>
+                        <h2>Popular <em>Locations</em></h2>
+                    </div>
+                </div>
+                <div class="locations">
+                    <a class="loc big reveal" href="#properties">
+                        <img src="islamabad.jpg" alt="Islamabad">
+                        <span><b>Islamabad</b><small>120+ Properties</small></span>
+                    </a>
+                    <a class="loc reveal" href="#properties">
+                        <img src="lahore.jpg" alt="Lahore">
+                        <span><b>Lahore</b><small>95+ Properties</small></span>
+                    </a>
+                    <a class="loc reveal" href="#properties">
+                        <img src="rawalpindi.jpg" alt="Rawalpindi">
+                        <span><b>Rawalpindi</b><small>80+ Properties</small></span>
+                    </a>
+                    <a class="loc reveal" href="#properties">
+                        <img src="karachi.jpg" alt="Karachi">
+                        <span><b>Karachi</b><small>110+ Properties</small></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Agents Section -->
+        <section class="section white" id="agents">
+            <div class="container">
+                <div class="center reveal">
+                    <p class="eyebrow">MEET THE TEAM</p>
+                    <h2>Guidance from people who <em>know homes.</em></h2>
+                </div>
+            
+                    <article class="agent reveal">
+                        <img src="mahiii.jpeg" alt="Agent">
+                        <div>
+                            <h3>Malaika Aiman</h3>
+                            <p>Luxury Homes Specialist</p>
+                            <button class="openModal">Contact Agent</button>
+                        </div>
+                    </article>
+                
+                </div>
+            
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" id="contact">
+            <div class="container ctaGrid reveal">
+                <div>
+                    <p class="eyebrow">YOUR NEXT CHAPTER</p>
+                    <h2>Ready to find your <em>dream home?</em></h2>
+                    <p>Tell us what you're looking for and let Nestora help you take the next step.</p>
+                </div>
+                <button class="pill light openModal">Get Started →</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container foot">
+            <div>
+                <a class="logo" href="#home">
+                    <b>⌂ Nestora</b>
+                    <small>Find your perfect home</small>
+                </a>
+                <p>Thoughtful homes. Exceptional locations. A better way to begin your next chapter.</p>
+            </div>
+            <div>
+                <h4>Explore</h4>
+                <a href="#properties">Properties</a>
+                <a href="#locations">Locations</a>
+                <a href="#about">About Nestora</a>
+            </div>
+            <div>
+                <h4>Support</h4>
+                <a href="#contact">Contact Us</a>
+                <a href="#agents">Our Agents</a>
+                <a href="#home">Back to Top</a>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>Islamabad, Pakistan</p>
+                <p>hello@nestora.com</p>
+                <p>+92 300 0000000</p>
+            </div>
+        </div>
+        <div class="container copyright">
+            © 2026 Nestora — Concept portfolio project.
+        </div>
+    </footer>
+
+    <!-- Modal Box -->
+    <div id="modal" class="modal">
+        <div class="modalBox">
+            <button id="closeModal">×</button>
+            <p class="eyebrow">LET'S TALK</p>
+            <h2>Tell us what you're looking for.</h2>
+            <form id="contactForm">
+                <input required placeholder="Your name">
+                <input type="email" required placeholder="Email address">
+                <select required>
+                    <option value="">I'm interested in...</option>
+                    <option>Buying a home</option>
+                    <option>Selling a property</option>
+                    <option>Investment property</option>
+                </select>
+                <textarea placeholder="Tell us a little more"></textarea>
+                <button class="pill">Send Message →</button>
+            </form>
+            <p id="message"></p>
+        </div>
+    </div>
+
+    <!-- Script File -->
+    <script src="nestore.js"></script>
+</body>
+</html>

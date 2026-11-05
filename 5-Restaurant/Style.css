@@ -1,0 +1,402 @@
+:root {
+    --bg-color: #f4ebd0;
+    --card-bg: #eadebe;
+    --text-color: #3b2f2f;
+    --accent-gold: #a97c3f;
+    --accent-hover: #8e6530;
+    --border-color: rgba(169, 124, 63, 0.3);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.section-subtitle {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 0.8rem;
+    color: var(--accent-gold);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6%;
+    background-color: rgba(244, 235, 208, 0.95);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border-color);
+    backdrop-filter: blur(5px);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: serif;
+    color: var(--text-color);
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--accent-gold);
+}
+
+.btn {
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-gold {
+    background-color: var(--accent-gold);
+    color: #fff;
+    border: 1px solid var(--accent-gold);
+}
+
+.btn-gold:hover {
+    background-color: var(--accent-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(169, 124, 63, 0.3);
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    margin-left: 10px;
+}
+
+.btn-outline:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    transform: translateY(-3px);
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.hero-badge {
+    background: var(--card-bg);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-bottom: 15px;
+    border: 1px solid var(--border-color);
+}
+
+.hero h1 {
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    letter-spacing: 4px;
+    font-family: serif;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}
+
+.hero p {
+    font-size: 1.1rem;
+    max-width: 500px;
+    margin-bottom: 30px;
+    color: #615252;
+}
+
+.about {
+    padding: 80px 8%;
+    background-color: var(--card-bg);
+    display: flex;
+    justify-content: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    line-height: 1.6;
+    color: #5c4e4e;
+}
+
+.manager-card {
+    flex: 1;
+    background: var(--bg-color);
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+.manager-card h3 {
+    font-family: serif;
+    font-size: 1.5rem;
+    margin-bottom: 4px;
+}
+
+.manager-role {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--accent-gold);
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.manager-contact {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+    color: #5c4e4e;
+}
+
+.menu {
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.food-card {
+    background: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    text-align: left;
+    overflow: hidden; /* Yeh image ko card ke andar round corners mein rakhne ke liye hai */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.food-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover; /* Image stretch nahi hogi, perfectly fit hogi */
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.food-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.food-card h3 {
+    font-family: serif;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.food-card p {
+    font-size: 0.88rem;
+    color: #615252;
+    margin-bottom: 15px;
+}
+
+
+.price {
+    font-weight: bold;
+    color: var(--accent-gold);
+}
+
+.special-offer {
+    padding: 80px 8%;
+    background-color: var(--card-bg);
+    text-align: center;
+}
+
+.special-box {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px dashed var(--accent-gold);
+    padding: 40px 20px;
+    border-radius: 8px;
+}
+
+.badge-tag {
+    background: var(--accent-gold);
+    color: #fff;
+    padding: 4px 12px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+.special-box h2 {
+    margin-top: 15px;
+}
+
+.special-box p {
+    color: #615252;
+    margin-bottom: 20px;
+}
+
+.reservation {
+    padding: 90px 8%;
+    text-align: center;
+}
+
+.res-form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.res-form input, .res-form select {
+    width: 100%;
+    padding: 12px;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    color: var(--text-color);
+    font-size: 0.95rem;
+}
+
+.res-form input:focus, .res-form select:focus {
+    outline: none;
+    border-color: var(--accent-gold);
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #3b2f2f;
+    color: #f4ebd0;
+    font-size: 0.8rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    .nav-links {
+        gap: 15px;
+        font-size: 0.8rem;
+    }
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .form-row {
+        flex-direction: column;
+    }
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+}
+/* Mobile Responsiveness Fixes */
+@media (max-width: 768px) {
+    /* Navbar ko mobile par set karna */
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+        gap: 10px;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* About section aur manager card ko aik line mein lana */
+    .about-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Menu grid ko mobile par aik column karna */
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Forms ko mobile par fit karna */
+    .form-row {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+/* Images ko responsive rakhna taake screen se bahar na jayein */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+        
