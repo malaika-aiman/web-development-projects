@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event & Task Manager</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-white min-h-screen p-4">
+  <div id="root"></div>
+
+  <script type="text/babel">
+    const { useState, useEffect } = React;
+
+    function App() {
+      const [tasks, setTasks] = useState([]);
+      const [title, setTitle] = useState('');
+      const [priority, setPriority] = useState('High');
+      const [category, setCategory] = useState('Web Dev');
+
+      useEffect(() => {
+        // Local state initialization for static frontend hosting
+        const savedTasks = JSON.parse(localStorage.getItem('app_tasks')) || [
+          { id: 1, title: 'Complete Web Dev Project', priority: 'High', category: 'Web Dev', isCompleted: false },
+          { id: 2, title: 'Revise CS Notes', priority: 'Medium', category: 'Exams', isCompleted: true }
+        ];
+        setTasks(savedTasks);
+      }, []);
+
+      useEffect(() => {
+        localStorage.setItem('app_tasks', JSON.stringify(tasks));
+      }, [tasks]);
+
+      const addTask = (e) => {
+        e.preventDefault();
+        if (!title.trim()) return;
+
+        const newTask = {
+          id: Date.now(),
+          title: title,
+          priority: priority,
+          category: category,
+          isCompleted: false
+        };
+
+        setTasks([...tasks, newTask]);
+        setTitle('');
+      };
+
+      const deleteTask = (id) => {
+        setTasks(tasks.filter(t => t.id !== id));
+      };
+
+      const completedCount = tasks.filter(t => t.isCompleted).length;
+      const progressPercent = tasks.length > 0 ? Math.round((completedCount / tasks.length) * 100) : 0;
+
+      return (
+        <div class="max-w-md mx-auto space-y-5">
+          <header class="border-b border-slate-700 pb-3">
+            <h1 class="text-xl font-bold text-purple-400">Web Development Project Two</h1>
+            <p class="text-slate-400 text-xs">Interactive Event & Task Manager</p>
+          </header>
+
+          {/* Progress Bar */}
+          <div class="bg-slate-800 p-4 rounded-lg">
+            <div class="flex justify-between text-xs mb-1">
+              <span>Overall Progress</span>
+              <span>{progressPercent}%</span>
+            </div>
+            <div class="w-full bg-slate-700 h-2 rounded-full overflow-hidden">
+              <div class="bg-purple-500 h-full transition-all duration-300" style={{ width: `${progressPercent}%` }}></div>
+            </div>
+          </div>
+
+          {/* Task Form */}
+          <form onSubmit={addTask} class="bg-slate-800 p-3 rounded-lg flex flex-col gap-2">
+            <input 
+              type="text" 
+              placeholder="Task or goal title..." 
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              class="bg-slate-700 px-3 py-2 rounded text-sm text-white outline-none"
+            />
+            <div class="flex gap-2">
+              <select value={priority} onChange={(e) => setPriority(e.target.value)} class="bg-slate-700 text-xs px-2 py-1.5 rounded flex-1">
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+              </select>
+              <select value={category} onChange={(e) => setCategory(e.target.value)} class="bg-slate-700 text-xs px-2 py-1.5 rounded flex-1">
+                <option>Web Dev</option>
+                <option>Exams</option>
+                <option>Assignments</option>
+              </select>
+              <button type="submit" class="bg-purple-600 hover:bg-purple-700 px-4 py-1.5 rounded text-xs font-bold">Add Task</button>
+            </div>
+          </form>
+
+          {/* Task List */}
+          <div class="space-y-2">
+            {tasks.map(task => (
+              <div key={task.id} class="bg-slate-800 p-3 rounded flex justify-between items-center border-l-2 border-purple-500">
+                <div>
+                  <p class="font-medium text-sm">{task.title}</p>
+                  <div class="flex gap-1.5 mt-1">
+                    <span class="text-[10px] bg-purple-900/60 text-purple-200 px-2 py-0.5 rounded">{task.priority}</span>
+                    <span class="text-[10px] bg-slate-700 text-slate-300 px-2 py-0.5 rounded">{task.category}</span>
+                  </div>
+                </div>
+                <button onClick={() => deleteTask(task.id)} class="text-red-400 hover:text-red-300 text-xs">Delete</button>
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>
