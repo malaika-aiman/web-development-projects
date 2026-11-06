@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore coffee, cold drinks and fresh bakery at Brew & Bloom.">
+  <title>Menu | Brew & Bloom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+
+  <div class="announcement">Freshly brewed, thoughtfully made · Open daily 8am–10pm</div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">b.</span> brew & bloom</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">Our story</a>
+        <a href="contact.html">Visit us</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="icon-btn" href="cart.html" aria-label="Shopping bag">♧<span class="cart-count" data-cart-count>0</span></a>
+        <a class="btn btn-small" href="menu.html">Order now</a>
+        <button class="icon-btn menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero"><div class="container">
+      <span class="eyebrow">A menu with good taste</span>
+      <h1>Your next favourite<br>is right here.</h1>
+      <p class="lead">From slow mornings to late-afternoon pick-me-ups, there's a little something for every kind of day.</p>
+    </div></section>
+    <section class="section container">
+      <div class="toolbar">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="All">All</button>
+          <button class="filter-btn" data-filter="Coffee">Coffee</button>
+          <button class="filter-btn" data-filter="Cold Coffee">Cold coffee</button>
+          <button class="filter-btn" data-filter="Tea & More">Tea & more</button>
+          <button class="filter-btn" data-filter="Bakery">Bakery</button>
+        </div>
+        <input class="search-field" id="menu-search" type="search" placeholder="Search the menu..." aria-label="Search menu">
+      </div>
+      <div class="menu-grid" id="menu-grid"></div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><span class="brand-mark">b.</span> brew & bloom</a>
+          <p>A neighbourhood coffee house for slow mornings, good conversations and cups worth coming back for.</p>
+        </div>
+        <div class="footer-col"><h4>Explore</h4><a href="menu.html">Our menu</a><a href="about.html">Our story</a><a href="contact.html">Find us</a></div>
+        <div class="footer-col"><h4>Hours</h4><p>Monday – Friday<br>8:00 am – 10:00 pm</p><p>Saturday – Sunday<br>9:00 am – 11:00 pm</p></div>
+        <div class="footer-col"><h4>Say hello</h4><p>hello@brewandbloom.example</p><p>+92 300 123 4567</p><p>Commercial Avenue, Islamabad</p></div>
+      </div>
+      <div class="footer-bottom"><span>© <span data-year></span> Brew & Bloom Coffee House</span><span>Made for good coffee and better company.</span></div>
+    </div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

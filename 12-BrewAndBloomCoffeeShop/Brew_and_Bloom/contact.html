@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Brew & Bloom Coffee House">
+  <title>Visit Us | Brew & Bloom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+
+  <div class="announcement">Freshly brewed, thoughtfully made · Open daily 8am–10pm</div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">b.</span> brew & bloom</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">Our story</a>
+        <a href="contact.html">Visit us</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="icon-btn" href="cart.html" aria-label="Shopping bag">♧<span class="cart-count" data-cart-count>0</span></a>
+        <a class="btn btn-small" href="menu.html">Order now</a>
+        <button class="icon-btn menu-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero"><div class="container">
+      <span class="eyebrow">Come on over</span>
+      <h1>There's always<br>room for one more.</h1>
+      <p class="lead">Find us for your daily coffee, a catch-up with friends or a quiet moment to yourself.</p>
+    </div></section>
+    <section class="section container">
+      <div class="form-layout">
+        <aside class="contact-details reveal">
+          <h3>Find your way to us.</h3>
+          <p>We're tucked into the neighbourhood, with fresh coffee on and a seat waiting.</p>
+          <div class="detail-item"><strong>Visit</strong><span>Commercial Avenue, Islamabad, Pakistan</span></div>
+          <div class="detail-item"><strong>Opening hours</strong><span>Mon–Fri: 8am–10pm<br>Sat–Sun: 9am–11pm</span></div>
+          <div class="detail-item"><strong>Get in touch</strong><span>hello@brewandbloom.example<br>+92 300 123 4567</span></div>
+        </aside>
+        <div class="form-card reveal">
+          <span class="eyebrow">A table, perhaps?</span>
+          <h2 style="font-size:36px;margin:12px 0 25px">Plan a little coffee date.</h2>
+          <form data-demo-form data-success="Thanks! Your request has been noted in this demo.">
+            <div class="form-grid">
+              <div class="field"><label for="guest-name">Your name</label><input id="guest-name" name="name" required placeholder="Name"></div>
+              <div class="field"><label for="guest-email">Email address</label><input id="guest-email" name="email" type="email" required placeholder="you@example.com"></div>
+              <div class="field"><label for="visit-date">Date</label><input id="visit-date" name="date" type="date" required></div>
+              <div class="field"><label for="guest-count">Guests</label><select id="guest-count" name="guests"><option>1 guest</option><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5+ guests</option></select></div>
+              <div class="field full"><label for="guest-note">Anything we should know?</label><textarea id="guest-note" name="note" placeholder="A preferred time or a little note..."></textarea></div>
+            </div>
+            <button class="btn" type="submit">Send a request <span>↗</span></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><span class="brand-mark">b.</span> brew & bloom</a>
+          <p>A neighbourhood coffee house for slow mornings, good conversations and cups worth coming back for.</p>
+        </div>
+        <div class="footer-col"><h4>Explore</h4><a href="menu.html">Our menu</a><a href="about.html">Our story</a><a href="contact.html">Find us</a></div>
+        <div class="footer-col"><h4>Hours</h4><p>Monday – Friday<br>8:00 am – 10:00 pm</p><p>Saturday – Sunday<br>9:00 am – 11:00 pm</p></div>
+        <div class="footer-col"><h4>Say hello</h4><p>hello@brewandbloom.example</p><p>+92 300 123 4567</p><p>Commercial Avenue, Islamabad</p></div>
+      </div>
+      <div class="footer-bottom"><span>© <span data-year></span> Brew & Bloom Coffee House</span><span>Made for good coffee and better company.</span></div>
+    </div>
+  </footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
