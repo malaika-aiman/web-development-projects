@@ -55,11 +55,26 @@ Welcome to my portfolio repository featuring web development projects and practi
 - **Description:** A modern, stylish, and responsive e-commerce web application for browsing and purchasing online courses and digital products with a seamless user experience.
 - **Tech Stack:** HTML5, CSS3, JavaScript
 - **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/10-OnlineCourse/index.html)
-  
+
 ### 11. FITORA — Fitness & Gym Website
 - **Description:** A modern, dynamic, and fully responsive fitness and gym web application designed to showcase workout programs, membership plans, trainer profiles, and interactive fitness features.
 - **Tech Stack:** HTML5, CSS3, JavaScript
 - **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/11-FITORA/index.html)
+
+### 12. Brew & Bloom Coffee Shop
+- **Description:** A cozy and elegant coffee shop website featuring artisan menu items, ambiance highlights, and online ordering features.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/12-BrewAndBloomCoffeeShop/index.html)
+
+### 13. Medora — Hospital Management System
+- **Description:** A streamlined healthcare web interface designed for managing patient records, doctor appointments, and medical services efficiently.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/13-MedoraHospitalManagement/index.html)
+
+### 14. VelvetCalc — Modern Calculator Web App
+- **Description:** A sleek and stylish interactive calculator web application featuring smooth operations and a modern UI.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/14-VelvetCalc/index.html)
 
 ---
 
