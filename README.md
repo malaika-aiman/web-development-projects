@@ -65,10 +65,12 @@ Welcome to my portfolio repository featuring web development projects and practi
 - **Description:** A cozy and elegant coffee shop website featuring artisan menu items, ambiance highlights, and online ordering features.
 - **Tech Stack:** HTML5, CSS3, JavaScript
 - **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/12-BrewAndBloomCoffeeShop/Brew_and_Bloom/index.html)
+- 
 ### 13. Medora — Hospital Management System
 - **Description:** A streamlined healthcare web interface designed for managing patient records, doctor appointments, and medical services efficiently.
 - **Tech Stack:** HTML5, CSS3, JavaScript
-- **Live Demo:**[View Live Project](https://malaika-aiman.github.io/web-development-projects/13-MedoraHospitalManagement/[View Live Project](https://malaika-aiman.github.io/web-development-projects/13-MedoraHospitalManagement/Brew_and_Bloom/index.html)/index.html)
+- **Live Demo:**[View Live Project](https://malaika-aiman.github.io/web-development-projects/13-MedoraHospitalManagement/Medora_Hospital/index.html)
+- 
 ### 14. VelvetCalc — Modern Calculator Web App
 - **Description:** A sleek and stylish interactive calculator web application featuring smooth operations and a modern UI.
 - **Tech Stack:** HTML5, CSS3, JavaScript
