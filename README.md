@@ -64,8 +64,7 @@ Welcome to my portfolio repository featuring web development projects and practi
 ### 12. Brew & Bloom Coffee Shop
 - **Description:** A cozy and elegant coffee shop website featuring artisan menu items, ambiance highlights, and online ordering features.
 - **Tech Stack:** HTML5, CSS3, JavaScript
-- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/12-BrewAndBloomCoffeeShop/index.html)
-
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/12-BrewAndBloomCoffeeShop/Brew_and_Bloom/index.html)
 ### 13. Medora — Hospital Management System
 - **Description:** A streamlined healthcare web interface designed for managing patient records, doctor appointments, and medical services efficiently.
 - **Tech Stack:** HTML5, CSS3, JavaScript
