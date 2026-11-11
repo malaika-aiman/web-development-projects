@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Savora Restaurant — bold flavours, fresh ingredients and unforgettable meals.">
+  <title>Savora | Taste the Good Life</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-strip">FRESH FLAVOURS, BIGGER SMILES <span>•</span> FREE DELIVERY ON ORDERS OVER Rs. 2,500</div>
+  <header class="header">
+    <a class="logo" href="#home"><span class="logo-mark">S</span> savora<span class="logo-dot">.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav class="nav">
+      <a href="#home">Home</a><a href="#menu">Our Menu</a><a href="#deals">Special Deals</a><a href="#chefs">Our Chefs</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="#reservation">Book a Table <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> GOOD FOOD. GOOD MOOD.</p>
+        <h1>Big flavour.<br><em>Zero</em> compromise.</h1>
+        <p class="hero-text">From sizzling desi favourites to cheesy, oven-fresh pizza — your next favourite meal is waiting.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#menu">Explore Menu <span>→</span></a><a class="text-link" href="#deals">See today's deals <span>↗</span></a></div>
+        <div class="hero-note"><div class="stars">★★★★★</div><span><b>4.9/5</b> · Loved by food lovers</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="hero-image-wrap"><img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1100&q=90" onerror="this.src='https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=1100&q=85'" alt="Freshly baked pizza"></div>
+        <div class="offer-sticker"><strong>20%</strong><span>OFF</span><small>FIRST ORDER</small></div>
+        <div class="image-caption"><span>✦</span> Made fresh, served happy</div>
+        <div class="floating-label">HOT &amp; FRESH <span>✦</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 — 04</span><span class="scroll-line"></span><span>SCROLL TO DISCOVER</span></div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading"><div><p class="eyebrow"><span></span> SOMETHING FOR EVERY CRAVING</p><h2>Explore our <em>menu.</em></h2></div><p>Freshly prepared favourites, made with care and served with a little extra love.</p></div>
+      <div class="category-row"><button class="filter active" data-filter="all">All favourites</button><button class="filter" data-filter="desi">Desi food</button><button class="filter" data-filter="pizza">Pizza</button><button class="filter" data-filter="bbq">BBQ & Grill</button><button class="filter" data-filter="chinese">Chinese</button><button class="filter" data-filter="dessert">Desserts</button></div>
+      <div class="menu-grid">
+        <article class="food-card" data-category="pizza"><div class="food-photo"><img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=700&q=80" alt="Pepperoni pizza"><span class="food-tag">BESTSELLER</span><button class="quick-reserve">Reserve Table ↗</button></div><div class="food-info"><div><h3>Classic Pepperoni</h3><p>Loaded cheese, pepperoni & herbs</p></div><b>Rs. 1,650</b></div></article>
+        <article class="food-card" data-category="desi"><div class="food-photo"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80" alt="Chicken biryani"><button class="quick-reserve">Reserve Table ↗</button></div><div class="food-info"><div><h3>Royal Chicken Biryani</h3><p>Fragrant rice, tender chicken & spices</p></div><b>Rs. 950</b></div></article>
+        <article class="food-card" data-category="bbq"><div class="food-photo"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80" alt="Grilled BBQ platter"><span class="food-tag">CHEF'S PICK</span><button class="quick-reserve">Reserve Table ↗</button></div><div class="food-info"><div><h3>Smoky BBQ Platter</h3><p>Char-grilled bites with house dip</p></div><b>Rs. 2,200</b></div></article>
+        <article class="food-card" data-category="chinese"><div class="food-photo"><img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=700&q=80" alt="Noodles"><button class="quick-reserve">Reserve Table ↗</button></div><div class="food-info"><div><h3>Chilli Garlic Noodles</h3><p>Wok-tossed noodles, crisp vegetables</p></div><b>Rs. 1,150</b></div></article>
+        <article class="food-card" data-category="desi"><div class="food-photo"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=700&q=80" alt="Chicken karahi"><button class="quick-reserve">Reserve Table ↗</button></div><div class="food-info"><div><h3>Desi Chicken Karahi</h3><p>Tomato masala, green chilli & ginger</p></div><b>Rs. 1,850</b></div></article>
+        <article class="food-card" data-category="dessert"><div class="food-photo"><img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=700&q=80" alt="Chocolate dessert"><span class="food-tag">SWEET FAVOURITE</span><button class="quick-reserve">Reserve Table ↗</button></div><div class="food-info"><div><h3>Chocolate Sundae</h3><p>Rich chocolate, creamy scoops & crunch</p></div><b>Rs. 750</b></div></article>
+      </div>
+    </section>
+
+    <section class="deal-banner" id="deals"><div class="deal-copy"><p class="eyebrow">A LITTLE TREAT FROM US</p><h2>Your cravings<br>just got <em>25% better.</em></h2><p>Enjoy 25% off selected family combos this week. Gather your people, we'll handle the food.</p><a href="#reservation" class="btn btn-light">Claim the Deal <span>→</span></a></div><div class="deal-art"><img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85" alt="Delicious pizza deal"><div class="deal-bubble">25%<small>OFF</small></div></div></section>
+
+    <section class="section chefs-section" id="chefs"><div class="section-heading"><div><p class="eyebrow"><span></span> THE PEOPLE BEHIND THE FLAVOUR</p><h2>Meet our <em>chefs.</em></h2></div><p>Passionate people, thoughtful cooking and a whole lot of flavour in every plate.</p></div>
+      <div class="chef-grid">
+        <article class="chef-card"><img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=650&q=80" alt="Chef Ahmed Khan"><div><h3>Ahmed Khan</h3><p>Head Chef · Desi Cuisine</p></div></article>
+        <article class="chef-card"><img src="https://images.unsplash.com/photo-1583394293214-28ded15ee548?auto=format&fit=crop&w=650&q=80" alt="Chef Sarah Malik"><div><h3>Sarah Malik</h3><p>Pizza & Italian Specialist</p></div></article>
+        <article class="chef-card"><img src="https://images.unsplash.com/photo-1574966399824-1f5f5d5f5f7b?auto=format&fit=crop&w=650&q=80" onerror="this.src='https://images.unsplash.com/photo-1581299894007-aaa50297cf16?auto=format&fit=crop&w=650&q=80'" alt="Chef Daniel James"><div><h3>Daniel James</h3><p>Grill & Kitchen Lead</p></div></article>
+      </div>
+    </section>
+
+    <section class="why-section"><div class="section-heading"><div><p class="eyebrow"><span></span> THE SAVORA DIFFERENCE</p><h2>Why choose <em>Savora?</em></h2></div><p>It's more than a meal. It's the little details that make every visit worth it.</p></div>
+      <div class="why-grid">
+        <article class="why-card"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=500&q=80" alt="Fresh ingredients"><span>01</span><h3>Fresh ingredients</h3><p>Quality ingredients, carefully selected for flavour you can taste.</p></article>
+        <article class="why-card"><img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=500&q=80" alt="Chef preparing food"><span>02</span><h3>Expert chefs</h3><p>Every dish is prepared by people who genuinely love good food.</p></article>
+        <article class="why-card"><img src="https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=500&q=80" alt="Food delivery"><span>03</span><h3>Quick delivery</h3><p>Hot, fresh favourites delivered right to your doorstep.</p></article>
+        <article class="why-card"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=500&q=80" alt="Restaurant dining"><span>04</span><h3>Warm hospitality</h3><p>A welcoming space, friendly service and memorable moments.</p></article>
+      </div>
+    </section>
+
+    <section class="reservation-section" id="reservation"><div><p class="eyebrow"><span></span> YOUR TABLE IS WAITING</p><h2>Good times are<br>better <em>together.</em></h2><p>Planning a family dinner or a catch-up with friends? Save your spot at Savora.</p></div>
+      <form class="reservation-form" id="bookingForm"><h3>Reserve your table</h3><label>Your name<input required type="text" placeholder="Enter your name"></label><div class="form-row"><label>Date<input required type="date" id="bookingDate"></label><label>Guests<select><option>2 guests</option><option>3 guests</option><option>4 guests</option><option>5 guests</option><option>6+ guests</option></select></label></div><label>Preferred time<select><option>7:00 PM</option><option>6:00 PM</option><option>8:00 PM</option><option>9:00 PM</option></select></label><button class="btn btn-primary" type="submit">Request Reservation <span>→</span></button><p class="form-message" id="formMessage" aria-live="polite"></p></form>
+    </section>
+  </main>
+  <footer id="contact"><div class="footer-main"><div><a class="logo footer-logo" href="#home"><span class="logo-mark">S</span> savora<span class="logo-dot">.</span></a><p>Good food brings people together.<br>Come hungry, leave happy.</p></div><div><h4>Find us</h4><p>Food Street, Main Boulevard<br>Rawalpindi, Pakistan</p></div><div><h4>Say hello</h4><p>+92 300 1234567<br>hello@savora.example</p></div><div><h4>Opening hours</h4><p>Mon – Sun<br>12:00 PM – 11:00 PM</p></div></div><div class="footer-bottom"><span>© 2026 Savora Restaurant. All rights reserved.</span><span>Made for good food moments. <b>✦</b></span></div></footer>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
