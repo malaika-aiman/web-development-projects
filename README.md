@@ -1,130 +1,81 @@
-<div align="center">
+# Web Development Projects
 
-<h1>Web Development Projects</h1>
+Welcome to my portfolio repository featuring web development projects and practice tasks built during my learning journey.
 
-<p>
-A collection of websites and interactive web applications
-built using HTML, CSS, and JavaScript.
-</p>
+---
 
-<p>
-<strong>14 Projects</strong> &nbsp; | &nbsp;
-<strong>Frontend Development</strong>
-</p>
+## 🚀 Projects List
 
-</div>
+### 1. Tech Innovators Summit 2026 Landing Page
+- **Description:** A semantic HTML5 project featuring event details, schedules, speaker lists, and forms.
+- **Tech Stack:** HTML5
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/01-Pro1/index.html)
 
-<hr>
+### 2. Interactive Event & Task Manager
+- **Description:** Full-stack task management dashboard with dynamic progress tracking and task filtering.
+- **Tech Stack:** React, Express.js (REST API), Tailwind CSS
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/02-Tech/project2.html)
 
-<h2>Projects</h2>
+### 3. Study Café — Student Study Hub
+- **Description:** Student study hub featuring structured study routines, weekly planners, and interactive signup form.
+- **Tech Stack:** HTML5, CSS3
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/03-StudyCafe/index.html)
 
-<table>
-<tr>
-<th width="7%">No.</th>
-<th width="28%">Project</th>
-<th>Description</th>
-<th>Live Demo</th>
-</tr>
-<tr>
-<td>01</td>
-<td>Tech Innovators Summit 2026</td>
-<td>Event landing page</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/01-Pro1/index.html">View</a></td>
-</tr>
-<tr>
-<td>02</td>
-<td>Interactive Event & Task Manager</td>
-<td>Task management dashboard</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/02-Tech/project2.html">View</a></td>
-</tr>
-<tr>
-<td>03</td>
-<td>Study Café</td>
-<td>Student study hub</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/03-StudyCafe/index.html">View</a></td>
-</tr>
-<tr>
-<td>04</td>
-<td>Travel & Tourism</td>
-<td>Travel and destination website</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/04-Travel/Travel.html">View</a></td>
-</tr>
-<tr>
-<td>05</td>
-<td>SAVORA</td>
-<td>Restaurant website</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/05-Restaurant/Restaurant.html">View</a></td>
-</tr>
-<tr>
-<td>06</td>
-<td>KicksX</td>
-<td>Sneaker store landing page</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/06-Kicksx/kicksx.html">View</a></td>
-</tr>
-<tr>
-<td>07</td>
-<td>Nestora</td>
-<td>Real estate website</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/07-RealEstate/nestore.html">View</a></td>
-</tr>
-<tr>
-<td>08</td>
-<td>MCQs Practice Hub</td>
-<td>Interactive quiz platform</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/08-MCQS/index.html">View</a></td>
-</tr>
-<tr>
-<td>09</td>
-<td>Blush Up</td>
-<td>Makeup studio website</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/09-BlushUp/index.html">View</a></td>
-</tr>
-<tr>
-<td>10</td>
-<td>Maison</td>
-<td>Online store and digital products</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/10-OnlineCourse/index.html">View</a></td>
-</tr>
-<tr>
-<td>11</td>
-<td>FITORA</td>
-<td>Fitness and gym website</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/11-FITORA/index.html">View</a></td>
-</tr>
-<tr>
-<td>12</td>
-<td>Brew & Bloom</td>
-<td>Coffee shop website</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/12-BrewAndBloomCoffeeShop/Brew_and_Bloom/index.html">View</a></td>
-</tr>
-<tr>
-<td>13</td>
-<td>Medora</td>
-<td>Hospital management interface</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/13-MedoraHospitalManagement/Medora_Hospital/index.html">View</a></td>
-</tr>
-<tr>
-<td>14</td>
-<td>VelvetCalc</td>
-<td>Modern calculator application</td>
-<td><a href="https://malaika-aiman.github.io/web-development-projects/14-VelvetCalc/index.html">View</a></td>
-</tr>
-</table>
+### 4. Travel & Tourism Destination Website
+- **Description:** Luxury travel agency website featuring tour packages and custom Midnight Navy & Gold theme.
+- **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/04-Travel/Travel.html)
 
-<h2>Technologies</h2>
+### 5. SAVORA Restaurant Website
+- **Description:** Modern restaurant web app with custom brand logo, menu grid, and promotional Canva banner.
+- **Tech Stack:** HTML5, CSS3 (Flexbox & Responsive Design)
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/05-Restaurant/Restaurant.html)
 
-<p>
-HTML5 &nbsp; • &nbsp; CSS3 &nbsp; • &nbsp; JavaScript
-</p>
+### 6. KicksX — Sneaker Store Landing Page
+- **Description:** Stylish and responsive sneaker store landing page featuring product grids and modern UI.
+- **Tech Stack:** HTML5, CSS3
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/06-Kicksx/kicksx.html)
 
-<hr>
+### 7. Nestora — Real Estate Web Application
+- **Description:** Modern real estate web app featuring property listings, search filters, and custom branding assets.
+- **Tech Stack:** HTML5, CSS3, JavaScript, Canva
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/07-RealEstate/nestore.html)
 
-<div align="center">
+### 8. MCQs Practice Hub
+- **Description:** Interactive platform for practicing subject-wise MCQs, quizzes, and exam preparation.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/08-MCQS/index.html)
 
-<strong>Malaika Aiman</strong>
+### 9. Blush Up — Makeup Studio Website
+- **Description:** Modern, responsive landing page for a boutique makeup studio featuring service listings, an interactive gallery lightbox, and an appointment booking form.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/09-BlushUp/index.html)
 
-<p><sub>Web Development Projects</sub></p>
+### 10. Maison — Online Store & Digital Products Platform
+- **Description:** A modern, stylish, and responsive e-commerce web application for browsing and purchasing online courses and digital products with a seamless user experience.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/10-OnlineCourse/index.html)
 
-<a href="https://github.com/malaika-aiman">GitHub Profile</a>
+### 11. FITORA — Fitness & Gym Website
+- **Description:** A modern, dynamic, and fully responsive fitness and gym web application designed to showcase workout programs, membership plans, trainer profiles, and interactive fitness features.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/11-FITORA/index.html)
 
-</div>
+### 12. Brew & Bloom Coffee Shop
+- **Description:** A cozy and elegant coffee shop website featuring artisan menu items, ambiance highlights, and online ordering features.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/12-BrewAndBloomCoffeeShop/Brew_and_Bloom/index.html)
+  
+### 13. Medora — Hospital Management System
+- **Description:** A streamlined healthcare web interface designed for managing patient records, doctor appointments, and medical services efficiently.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:**[View Live Project](https://malaika-aiman.github.io/web-development-projects/13-MedoraHospitalManagement/Medora_Hospital/index.html)
+  
+### 14. VelvetCalc — Modern Calculator Web App
+- **Description:** A sleek and stylish interactive calculator web application featuring smooth operations and a modern UI.
+- **Tech Stack:** HTML5, CSS3, JavaScript
+- **Live Demo:** [View Live Project](https://malaika-aiman.github.io/web-development-projects/14-VelvetCalc/index.html)
+
+---
+
+**Developed with ❤️ by MALAIKA!**
