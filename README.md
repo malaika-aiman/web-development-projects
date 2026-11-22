@@ -1,124 +1,141 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=160&color=0:0F1B33,50:51418F,100:B9A5F5&text=WEB%20DEVELOPMENT&fontSize=35&fontColor=FFFFFF&animation=fadeIn&stroke=B9A5F5&strokeWidth=1" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:17113D,35:44358A,70:8873CB,100:D4C5FF&height=175&section=header&text=WEB%20DEVELOPMENT&fontSize=34&fontColor=FFFFFF&animation=twinkling&fontAlignY=42" width="100%" />
 
 ### MAKE IDEAS CLICK ON EVERY SCREEN.
 
-*Selected works in frontend development.*
+*My web development projects, experiments & creations.*
 
-[ GitHub Profile ↗](https://github.com/malaika-aiman)
+[GitHub Profile ↗](https://github.com/malaika-aiman)
 
 </div>
 
 ---
 
-### THE WORK / 15 PROJECTS
+## ✦ SELECTED PROJECTS
 
-**01 — Tech Innovators Summit**
+### 🪻 01. Tech Innovators Summit
+An event landing page featuring schedules, speakers and registration details.
 
-Event landing page with schedules and speaker information.
+`HTML5`
 
-`HTML` `CSS` · [Live Demo ↗](#) · [Source ↗](./01-Pro1)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/01-Pro1/index.html) · [Source Code ↗](./01-Pro1)
 
-**02 — Interactive Event & Task Manager**
+### 💜 02. Interactive Event & Task Manager
+A task management dashboard with progress tracking and interactive filtering.
 
-A task management dashboard with interactive functionality.
+`React` `Express.js` `Tailwind CSS`
 
-`React` `Express` `Tailwind` · [Live Demo ↗](#) · [Source ↗](./02-Tech)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/02-Tech/project2.html) · [Source Code ↗](./02-Tech)
 
-**03 — Study Café**
+### 🔹 03. Study Café
+A student-focused workspace with study routines, planners and membership features.
 
-A student-focused study hub and weekly planner.
+`HTML5` `CSS3`
 
-`HTML` `CSS` · [Live Demo ↗](#) · [Source ↗](./03-StudyCafe)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/03-StudyCafe/index.html) · [Source Code ↗](./03-StudyCafe)
 
-**04 — Travel & Tourism**
+### 🪻 04. Travel & Tourism
+A travel website showcasing destinations, tour packages and booking experiences.
 
-A travel website with a refined visual identity.
+`HTML5` `CSS3`
 
-`HTML` `CSS` · [Live Demo ↗](#) · [Source ↗](./04-Travel)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/04-Travel/Travel.html) · [Source Code ↗](./04-Travel)
 
-**05 — SAVORA Restaurant**
+### 💜 05. SAVORA Restaurant
+A restaurant website featuring a custom identity, menu and promotional visuals.
 
-A modern restaurant website and menu experience.
+`HTML5` `CSS3`
 
-`HTML` `CSS` · [Live Demo ↗](#) · [Source ↗](./05-SavoraRestaurant)
+[Live Preview ↗](https://malaika-aiman.github.io/web-development-projects/05-SavoraRestaurant/Savora_Restaurant_Website/) · [Source Code ↗](./05-SavoraRestaurant/Savora_Restaurant_Website)
 
-**06 — KicksX**
+### 🔹 06. KicksX
+A modern sneaker store concept with product collections and shopping interactions.
 
-A sneaker store concept with a modern product layout.
+`HTML5` `CSS3`
 
-`HTML` `CSS` · [Live Demo ↗](#) · [Source ↗](./06-Kicksx)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/06-Kicksx/kicksx.html) · [Source Code ↗](./06-Kicksx)
 
-**07 — Nestora**
+### 🪻 07. Nestora
+A real estate experience featuring property listings, filters and location discovery.
 
-A real estate website featuring property listings.
+`HTML5` `CSS3` `JavaScript`
 
-`HTML` `CSS` `JavaScript` · [Live Demo ↗](#) · [Source ↗](./07-RealEstate)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/07-RealEstate/nestore.html) · [Source Code ↗](./07-RealEstate)
 
-**08 — MCQs Practice Hub**
+### 💜 08. MCQs Practice Hub
+An interactive Java learning platform with topic-based quizzes and instant feedback.
 
-An interactive quiz and learning platform.
+`HTML5` `CSS3` `JavaScript`
 
-`HTML` `CSS` `JavaScript` · [Live Demo ↗](#) · [Source ↗](./08-MCQS)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/08-MCQS/index.html) · [Source Code ↗](./08-MCQS)
 
-**09 — Blush Up**
+### 🔹 09. Blush Up
+A beauty studio website with service showcases, gallery and appointment booking.
 
-A beauty studio website with gallery and services.
+`HTML5` `CSS3` `JavaScript`
 
-`HTML` `CSS` `JavaScript` · [Live Demo ↗](#) · [Source ↗](./09-BlushUp)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/09-BlushUp/index.html) · [Source Code ↗](./09-BlushUp)
 
-**10 — Maison**
+### 🪻 10. Maison
+An online shopping experience for fashion, lifestyle and digital products.
 
-An online platform for courses and digital products.
+`HTML5` `CSS3` `JavaScript`
 
-`HTML` `CSS` `JavaScript` · [Live Demo ↗](#) · [Source ↗](./10-OnlineCourse)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/10-OnlineCourse/index.html) · [Source Code ↗](./10-OnlineCourse)
 
-**11 — FITORA**
+### 💜 11. FITORA
+A fitness website showcasing workout programs, trainers and membership plans.
 
-A fitness website featuring programs and memberships.
+`HTML5` `CSS3` `JavaScript`
 
-`HTML` `CSS` `JavaScript` · [Live Demo ↗](#) · [Source ↗](./11-FITORA)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/11-FITORA/index.html) · [Source Code ↗](./11-FITORA)
 
-**12 — Brew & Bloom**
+### 🔹 12. Brew & Bloom
+A coffee shop website featuring artisan menus and an inviting brand experience.
 
-A coffee shop website with a custom brand identity.
+`HTML5` `CSS3` `JavaScript`
 
-`HTML` `CSS` `JavaScript` · [Live Demo ↗](#) · [Source ↗](./12-BrewAndBloomCoffeeShop/Brew_and_Bloom)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/12-BrewAndBloomCoffeeShop/Brew_and_Bloom/index.html) · [Source Code ↗](./12-BrewAndBloomCoffeeShop/Brew_and_Bloom)
 
-**13 — Medora**
+### 🪻 13. Medora
+A healthcare interface designed around patient records, appointments and services.
 
-A healthcare and hospital management interface.
+`HTML5` `CSS3` `JavaScript`
 
-`HTML` `CSS` `JavaScript` · [Live Demo ↗](#) · [Source ↗](./13-MedoraHospitalManagement/Medora_Hospital)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/13-MedoraHospitalManagement/Medora_Hospital/index.html) · [Source Code ↗](./13-MedoraHospitalManagement/Medora_Hospital)
 
-**14 — VelvetCalc**
+### 💜 14. VelvetCalc
+A modern interactive calculator with a clean interface and smooth operations.
 
-A clean and interactive calculator application.
+`HTML5` `CSS3` `JavaScript`
 
-`HTML` `CSS` `JavaScript` · [Live Demo ↗](#) · [Source ↗](./14-VelvetCalc)
+[Live Demo ↗](https://malaika-aiman.github.io/web-development-projects/14-VelvetCalc/index.html) · [Source Code ↗](./14-VelvetCalc)
 
-**15 — PocketNotes**
+### 🔹 15. PocketNotes
+A productivity and expense-tracking project designed to keep everyday notes and expenses organized.
 
-A productivity and expense-tracking project.
-
-[Source ↗](./15-PocketNotes/pocket-notes-expense-tracker)
+[Live Preview ↗](https://malaika-aiman.github.io/web-development-projects/15-PocketNotes/pocket-notes-expense-tracker/) · [Source Code ↗](./15-PocketNotes/pocket-notes-expense-tracker)
 
 ---
 
-### THE TOOLKIT
+## ✦ TECH STACK
 
-`HTML5` / `CSS3` / `JavaScript` / `React` / `Express.js` / `Tailwind CSS`
+`HTML5` · `CSS3` · `JavaScript` · `React` · `Express.js` · `Tailwind CSS`
 
 ---
 
 <div align="center">
+
+### MADE WITH CREATIVITY & CURIOSITY
 
 **MALAIKA AIMAN**
 
 *Make Ideas Click on Every Screen.*
 
 [GitHub](https://github.com/malaika-aiman)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:17113D,50:44358A,100:8873CB&height=4&section=footer" width="100%" />
 
 </div>
