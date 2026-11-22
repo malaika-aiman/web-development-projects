@@ -111,8 +111,7 @@ A productivity project for organizing everyday notes and expenses.
 
 ### TECHNOLOGIES
 
-`HTML5` &nbsp; `CSS3` &nbsp; `JavaScript` &nbsp; `React` &nbsp; `Express.js` &nbsp; `Tailwind CSS`
-
+`HTML5` &nbsp; `CSS3` &nbsp; `JavaScript` &nbsp;
 ---
 
 <div align="center">
